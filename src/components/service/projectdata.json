@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Cocktail finder",
+    "id": "1",
+    "image":"../images/nataliablanco.github.io_Cocktail_Finder_.png",
+    "demo": "http://nataliablanco.github.io/Cocktail_Finder/",
+    "repo":"https://github.com/NataliaBlanco/Cocktail_Finder",
+    "stack":["HTML5","SASS","JS"]
+  },
+  {
+    "name": "Harry Potter World´s",
+    "id": "2",
+    "image":"",
+    "demo": "https://nataliablanco.github.io/Harry_Potters_world_list/",
+    "repo":"https://github.com/NataliaBlanco/Harry_Potters_world_list",
+    "stack": ["HTML","SASS","React"]
+  },
+  {
+    "name": "Friends Character Quotes",
+    "id": "3",
+    "image":"",
+    "demo": "https://nataliablanco.github.io/Friends_characters_quotes/",
+    "repo":"https://github.com/NataliaBlanco/Friends_characters_quotes",
+    "stack":["HTML","SASS","React"]
+  },
+  {
+    "name": "Full of Projects",
+    "id": "4",
+    "image":"",
+    "demo": "https://full-of-projects.onrender.com/",
+    "repo":"https://github.com/NataliaBlanco/Full_of_Projects",
+    "stack":["HTML","SASS","React","Node.Js","Express.Js","MySql Workbench"]
+  }
+  
+
+  
+]

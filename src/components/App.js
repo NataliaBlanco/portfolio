@@ -4,19 +4,20 @@
 // - Nuestros
 // - Sass
 import '../styles/App.scss';
-import projects from '../components/service/projects.json';
-import { useState, useEffect } from 'react';
+import projectdata from './service/projectdata.json';
+import { useState } from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import Header from './Header';
-import Contactpage from './pages/Contactpage';
+import Home from './Home';
+import Contactpage from './pages/Contact';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 // - Imágenes
 
 /* SECCIÓN DEL COMPONENTE */
 function App() {
-  const [data, setData] = useState(projects);
+  const [data, setData] = useState(projectdata);
 
   /* EFECTOS (código cuando carga la página) */
   /* FUNCIONES HANDLER */
@@ -24,30 +25,12 @@ function App() {
 
   /* HTML */
   return (
-    <div className="App">
-      <Header></Header>
-      <main>
-        <h1>Natalia Blanco</h1>
-        <Routes>
-          <Route path="/Contactpage" element={<Contactpage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/Projects" element={<Projects />} />
-        </Routes>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/About">About me</Link>
-            </li>
-            <li>
-              <Link to="/Projects">Projects</Link>
-            </li>
-            <li>
-              <Link to="/Contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
-      </main>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/Contact" element={<Contact />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/Projects" element={<Projects data={data} />} />
+    </Routes>
   );
 }
 
