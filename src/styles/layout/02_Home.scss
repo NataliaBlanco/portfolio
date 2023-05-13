@@ -1,0 +1,36 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url('../../components/images/doubcircle2.png') no-repeat 0 80%;
+  background-size: 50rem;
+  background-position: 15%;
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+
+    &__title {
+      font-size: 5rem;
+      font-weight: 100;
+      font-family: $font2;
+      background-color: transparent;
+      word-spacing: 3rem;
+    }
+    &__subtitle {
+      font-size: 2.45rem;
+      font-family: $font1;
+      background-color: transparent;
+      letter-spacing: 1.2rem;
+      word-spacing: 3rem;
+    }
+  }
+}

@@ -17,7 +17,7 @@ import Contact from './pages/Contact';
 
 /* SECCIÓN DEL COMPONENTE */
 function App() {
-  const [data, setData] = useState(projectdata);
+  const [data] = useState(projectdata);
 
   /* EFECTOS (código cuando carga la página) */
   /* FUNCIONES HANDLER */

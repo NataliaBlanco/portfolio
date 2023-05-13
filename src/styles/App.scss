@@ -1,5 +1,7 @@
 /* Aquí van tus estilos */
-@import './core/variables_reset.scss';
+@import './core/variables.scss';
+@import './core/reset.scss';
+
 @import './layout/01_Header.scss';
 @import './layout/02_Home.scss';
 @import './layout/03_Menu.scss';

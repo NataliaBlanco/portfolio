@@ -5,8 +5,11 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <main>
-        <h1>Natalia Blanco</h1>
+      <main className="main">
+        <section className="section">
+          <h1 className="section__title">Natalia Blanco</h1>
+          <h2 className="section__subtitle">Front-End Dreamer</h2>
+        </section>
         <Menu />
       </main>
     </div>

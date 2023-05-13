@@ -29,10 +29,12 @@ const Projects = ({ data }) => {
   return (
     <>
       <Header />
-      <section className="list">
-        <ul className="project">{renderprojects()}</ul>
-      </section>
-      <Menu />
+      <div className="main">
+        <section className="list">
+          <ul className="project">{renderprojects()}</ul>
+        </section>
+        <Menu />
+      </div>
     </>
   );
 };

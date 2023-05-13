@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $maincolor;
+
+  html,
+  body {
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+}
