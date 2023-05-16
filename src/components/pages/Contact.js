@@ -7,11 +7,15 @@ const Contact = () => {
     <>
       <Header />
       <div className="main">
-        <section className="main__section">
-          <ul className="nav__menu">
-            <li className="menu__list">
+        <section className="contact__section">
+          <p className="prg">
+            If you would like to know a little bit more about me, please feel
+            free to reach out on the below links.
+          </p>
+          <ul className="menu">
+            <li className="menu__li">
               <a
-                className="link"
+                className="menu__li__linkedin"
                 href="https://www.linkedin.com/in/natalia-blanco-outeiral"
                 title="Linkedin"
                 target="_blank"
@@ -20,9 +24,9 @@ const Contact = () => {
                 Linkedin
               </a>
             </li>
-            <li>
+            <li className="menu__li">
               <a
-                className="link"
+                className="menu__li__github"
                 href="https://github.com/NataliaBlanco"
                 title="Github"
                 target="_blank"
@@ -31,9 +35,9 @@ const Contact = () => {
                 Github
               </a>
             </li>
-            <li>
+            <li className="menu__li">
               <a
-                className="link"
+                className="menu__li__mail"
                 href="mailto: nataliaouteiral@gmail.com"
                 title="Send me an email"
                 target="_blank"
@@ -42,18 +46,17 @@ const Contact = () => {
                 Email
               </a>
             </li>
-            <li>
-              <a
-                className="link"
-                href={cv}
-                title="Download my cv"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Download CV
-              </a>
-            </li>
           </ul>
+          <p className="prg">You can alternatively download my CV below</p>
+          <a
+            className="cv"
+            href={cv}
+            title="Download my cv"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Download CV
+          </a>
         </section>
         <Menu />
       </div>

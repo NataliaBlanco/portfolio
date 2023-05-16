@@ -9,7 +9,7 @@ const About = () => {
       <div className="main">
         <section className="about__section">
           <img className="pic" src={Nat} alt="Natalia Blanco"></img>
-          <h2 className="section__subtitle--2">Hello peps! </h2>
+          <h2 className="section__subtitle--2">Hello peeps! </h2>
           <p className="section__p">
             A versatile individual with a large background in the Fashion
             indsutry, recently converted into the tech world and looking for new

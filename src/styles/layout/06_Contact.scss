@@ -1,0 +1,91 @@
+.contact__section {
+  font-size: 2rem;
+  font-family: $font4;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 4rem;
+  min-width: 19rem;
+  max-width: 65rem;
+  width: 100%;
+  .prg {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 600;
+    color: #a88cc7;
+    background-color: transparent;
+    text-align: center;
+    @media all and (min-width: 768px) {
+      font-size: 2rem;
+      font-style: italic;
+      font-weight: 600;
+    }
+  }
+  .menu {
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+    align-items: center;
+    background-color: transparent;
+    list-style-type: none;
+    @media all and (min-width: 768px) {
+      font-size: 1.5rem;
+    }
+    .menu__li {
+      background-color: transparent;
+      &__linkedin {
+        text-decoration: none;
+        color: black;
+        background-color: transparent;
+      }
+      &__linkedin:hover {
+        background-color: #a88cc7;
+        border-radius: 5px;
+        padding: 2px 5px;
+        color: white;
+      }
+      &__github {
+        text-decoration: none;
+        color: black;
+        background-color: transparent;
+      }
+      &__github:hover {
+        background-color: #a88cc7;
+        border-radius: 5px;
+        padding: 2px 5px;
+        color: white;
+      }
+      &__mail {
+        text-decoration: none;
+        color: black;
+        background-color: transparent;
+      }
+      &__mail:hover {
+        background-color: #a88cc7;
+        border-radius: 5px;
+        padding: 2px 5px;
+        color: white;
+      }
+    }
+  }
+  .cv {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    font-size: 1.25rem;
+    @media all and (min-width: 768px) {
+      font-size: 1.5rem;
+    }
+  }
+  .cv:hover {
+    background-color: #a88cc7;
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: white;
+  }
+}

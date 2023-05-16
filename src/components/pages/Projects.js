@@ -50,7 +50,7 @@ const Projects = ({ data }) => {
     <>
       <Header />
       <div className="main">
-        <section className="list">
+        <section className="projects__section">
           <ul className="project">{renderprojects()}</ul>
         </section>
         <Menu />

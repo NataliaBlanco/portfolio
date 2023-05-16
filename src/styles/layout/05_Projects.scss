@@ -1,4 +1,4 @@
-.list {
+.projects__section {
   background-color: transparent;
   min-width: 19rem;
   max-width: 74rem;
@@ -28,9 +28,10 @@
       box-shadow: -3px 3px 5px 3px #aaa;
       border-radius: 1rem;
       &:hover {
-        width: 23rem;
-        height: 21.5rem;
+        //width: 23rem;
+        //height: 21.5rem;
         background-color: #ebdfd6;
+        box-shadow: -3px 3px 5px 3px #b49bd1ec;
       }
 
       &__name {
@@ -45,7 +46,7 @@
       }
       &__img {
         width: 18rem;
-        height: 9rem;
+        height: 10rem;
         border-radius: 1rem;
       }
       &__stack {

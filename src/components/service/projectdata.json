@@ -10,7 +10,7 @@
   {
     "name": "Harry Potter World´s",
     "id": "2",
-    "image":"file:///../../images/nataliablanco.github.io_Cocktail_Finder_.png",
+    "image":"https://i.postimg.cc/8CspDm5M/Captura-de-pantalla-2023-05-15-a-las-10-18-40.png",
     "demo": "https://nataliablanco.github.io/Harry_Potters_world_list/",
     "repo":"https://github.com/NataliaBlanco/Harry_Potters_world_list",
     "stack": ["HTML","SASS","React"]
@@ -18,7 +18,7 @@
   {
     "name": "Friends Character Quotes",
     "id": "3",
-    "image":"",
+    "image":"https://i.postimg.cc/L625Zf5g/Captura-de-pantalla-2023-05-16-a-las-20-52-49.png",
     "demo": "https://nataliablanco.github.io/Friends_characters_quotes/",
     "repo":"https://github.com/NataliaBlanco/Friends_characters_quotes",
     "stack":["HTML","SASS","React"]
@@ -26,11 +26,21 @@
   {
     "name": "Full of Projects",
     "id": "4",
-    "image":"",
+    "image":"https://i.postimg.cc/63V0YnX4/Captura-de-pantalla-2023-05-16-a-las-21-16-04.png",
     "demo": "https://full-of-projects.onrender.com/",
     "repo":"https://github.com/NataliaBlanco/Full_of_Projects",
     "stack":["HTML","SASS","React","Node.Js","Express.Js","MySql Workbench"]  
+  },
+   {
+    "name": "Awesome Business Cards",
+    "id": "5",
+    "image":"https://i.postimg.cc/05W5r4TF/Captura-de-pantalla-2023-05-16-a-las-21-09-52.png",
+    "demo": "https://nataliablanco.github.io/Awesome_Business_Cards/",
+    "repo":"https://github.com/NataliaBlanco/Awesome_Business_Cards",
+    "stack":["HTML5","SASS","JS"] 
   }
+  
+
   
   
 

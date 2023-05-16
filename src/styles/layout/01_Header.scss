@@ -7,7 +7,9 @@
 
   &__ttl {
     color: black;
+    background-color: transparent;
     &__link {
+      background-color: transparent;
       &:hover {
         font-size: 3rem;
         color: #a88cc7;
