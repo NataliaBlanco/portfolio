@@ -6,9 +6,8 @@
 import '../styles/App.scss';
 import projectdata from './service/projectdata.json';
 import { useState } from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from './Home';
-import Contactpage from './pages/Contact';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';

@@ -1,5 +1,42 @@
 .nav {
+  width: 24rem;
+  background-color: transparent;
+
   &__menu {
-    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: transparent;
+    align-items: center;
+    @media all and (min-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 6rem;
+    }
+
+    .menu__list {
+      font-size: 1.5rem;
+      list-style-type: none;
+      background-color: transparent;
+      @media all and (min-width: 768px) {
+        font-size: 2rem;
+      }
+
+      &__link {
+        text-decoration: none;
+        color: black;
+        background-color: transparent;
+        @media all and (min-width: 768px) {
+          &:hover {
+            font-size: 3rem;
+            color: #a88cc7;
+            font-style: italic;
+            font-weight: bolder;
+          }
+        }
+      }
+    }
   }
 }

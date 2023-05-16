@@ -1,14 +1,16 @@
 import Header from '../Header';
 import Menu from './Menu';
+import Nat from '../../components/images/CA5BF6B5-395C-4784-907F-6BAF7B8303FC.jpeg';
 
 const About = () => {
   return (
-    <div>
+    <>
       <Header />
       <div className="main">
-        <section className="main__section">
-          <h2>Hello peps!</h2>
-          <p>
+        <section className="about__section">
+          <img className="pic" src={Nat} alt="Natalia Blanco"></img>
+          <h2 className="section__subtitle--2">Hello peps! </h2>
+          <p className="section__p">
             A versatile individual with a large background in the Fashion
             indsutry, recently converted into the tech world and looking for new
             opportunities as a junior developer. I put passion, love and effort
@@ -19,7 +21,7 @@ const About = () => {
         </section>
         <Menu />
       </div>
-    </div>
+    </>
   );
 };
 

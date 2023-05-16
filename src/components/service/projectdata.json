@@ -2,7 +2,7 @@
   {
     "name": "Cocktail finder",
     "id": "1",
-    "image":"../images/nataliablanco.github.io_Cocktail_Finder_.png",
+    "image":"https://i.postimg.cc/3RvNxMqK/nataliablanco-github-io-Cocktail-Finder.png",
     "demo": "http://nataliablanco.github.io/Cocktail_Finder/",
     "repo":"https://github.com/NataliaBlanco/Cocktail_Finder",
     "stack":["HTML5","SASS","JS"]
@@ -10,7 +10,7 @@
   {
     "name": "Harry Potter World´s",
     "id": "2",
-    "image":"",
+    "image":"file:///../../images/nataliablanco.github.io_Cocktail_Finder_.png",
     "demo": "https://nataliablanco.github.io/Harry_Potters_world_list/",
     "repo":"https://github.com/NataliaBlanco/Harry_Potters_world_list",
     "stack": ["HTML","SASS","React"]
@@ -29,8 +29,9 @@
     "image":"",
     "demo": "https://full-of-projects.onrender.com/",
     "repo":"https://github.com/NataliaBlanco/Full_of_Projects",
-    "stack":["HTML","SASS","React","Node.Js","Express.Js","MySql Workbench"]
+    "stack":["HTML","SASS","React","Node.Js","Express.Js","MySql Workbench"]  
   }
+  
   
 
   

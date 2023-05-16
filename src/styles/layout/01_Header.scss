@@ -1,0 +1,20 @@
+.header {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-family: $font3;
+  background-color: transparent;
+  height: 8rem;
+
+  &__ttl {
+    color: black;
+    &__link {
+      &:hover {
+        font-size: 3rem;
+        color: #a88cc7;
+        font-style: italic;
+      }
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}

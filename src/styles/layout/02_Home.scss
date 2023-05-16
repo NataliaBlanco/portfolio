@@ -1,16 +1,18 @@
 .main {
+  text-decoration: none;
+  font-family: $font3;
   min-height: 100vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
   align-items: center;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url('../../components/images/doubcircle2.png') no-repeat 0 80%;
-  background-size: 50rem;
-  background-position: 15%;
+  background: url('../../components/images/doublefaded.png') no-repeat 0 50%;
+  background-size: 20rem;
+  @media all and (min-width: 768px) {
+    background-size: 46rem;
+    flex-direction: row;
+    align-items: center;
+  }
 
   .section {
     display: flex;
@@ -23,14 +25,23 @@
       font-weight: 100;
       font-family: $font2;
       background-color: transparent;
-      word-spacing: 3rem;
+      word-spacing: 1rem;
+      text-align: center;
+      @media all and (min-width: 768px) {
+        font-size: 7rem;
+        word-spacing: 3rem;
+      }
     }
     &__subtitle {
-      font-size: 2.45rem;
+      font-size: 1.4rem;
       font-family: $font1;
       background-color: transparent;
       letter-spacing: 1.2rem;
       word-spacing: 3rem;
+      text-align: center;
+      @media all and (min-width: 768px) {
+        font-size: 2.45rem;
+      }
     }
   }
 }

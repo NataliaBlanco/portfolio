@@ -8,8 +8,8 @@ const Contact = () => {
       <Header />
       <div className="main">
         <section className="main__section">
-          <ul>
-            <li>
+          <ul className="nav__menu">
+            <li className="menu__list">
               <a
                 className="link"
                 href="https://www.linkedin.com/in/natalia-blanco-outeiral"

@@ -5,22 +5,42 @@ const Projects = ({ data }) => {
   const renderprojects = () => {
     return data.map((project) => {
       return (
-        <li className="project_card" key={project.id}>
-          <h3 className="project_card_name">{project.name}</h3>
+        <li className="project__card" key={project.id}>
+          <h3 className="project__card__name">{project.name}</h3>
           <img
-            className="project_card_img"
-            src={project.img}
+            className="project__card__img"
+            src={project.image}
             alt="project"
+            target="_blank"
           ></img>
-          <p className="project_card">
-            <a href={project.demo}>demo</a>
+
+          <div className="project__card__stack">
+            {project.stack.map((t, idx) => {
+              return (
+                <p key={idx} className="prf">
+                  {t}{' '}
+                </p>
+              );
+            })}
+          </div>
+          <p className="project__card__p">
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noreferrer"
+              className="project__card__p__link"
+            >
+              <i className="fas fa-desktop icon"></i>
+            </a>
+            <a
+              href={project.repo}
+              target="_blank"
+              rel="noreferrer"
+              className="project__card__p__link"
+            >
+              <i className="fab fa-github-alt icon"></i>
+            </a>
           </p>
-          <p className="project_card">
-            <a href={project.repo}>repo</a>
-          </p>
-          {project.stack.map((t, idx) => {
-            return <span key={idx}>{t} </span>;
-          })}
         </li>
       );
     });
