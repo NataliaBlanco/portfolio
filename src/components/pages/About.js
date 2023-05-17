@@ -13,9 +13,9 @@ const About = () => {
             <h2 className="section__subtitle--2">Hello peeps! </h2>
             <p className="section__p">
               A versatile individual with a large background in the Fashion
-              indsutry, recently converted into the tech world and looking for
+              indsustry, recently converted into the tech world and looking for
               new opportunities as a junior developer. I put passion, love and
-              effort in what I do. I like to evolve throught times and always
+              effort in what I do. I like to evolve througha times and always
               improve for the better. In my own personal life I like to spend
               time with my family, surf when I can, travel, read and learn new
               stuff .
