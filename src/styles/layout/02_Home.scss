@@ -6,12 +6,13 @@
   flex-direction: column-reverse;
   align-items: center;
   justify-content: space-around;
-  background: url('../../components/images/doublefaded.png') no-repeat 0 50%;
-  background-size: 20rem;
+  background-color: transparent;
+
   @media all and (min-width: 768px) {
-    background-size: 45rem;
     flex-direction: row;
     align-items: center;
+    background-color: transparent;
+    background-size: 45rem;
   }
 
   .section {
@@ -21,7 +22,7 @@
     background-color: transparent;
 
     &__title {
-      font-size: 5rem;
+      font-size: 4rem;
       font-weight: 100;
       font-family: $font2;
       background-color: transparent;

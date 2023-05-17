@@ -2,11 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: $maincolor;
 
   html,
   body {
     font-size: 62.5%;
     overflow-x: hidden;
+    background-repeat: no-repeat;
+    background: url('../../components/images/doublefaded.png') no-repeat 0 50%;
+    background-image: cover;
+    background-color: $maincolor;
+    background-size: 20rem;
+    @media all and (min-width: 768px) {
+      background-size: 45rem;
+    }
   }
 }
