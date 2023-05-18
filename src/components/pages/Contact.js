@@ -1,6 +1,6 @@
 import Header from '../Header';
 import Menu from './Menu';
-import cv from '../docs/NATALIA BLANCO ENG.pdf';
+import cv from '../docs/natalia.pdf';
 
 const Contact = () => {
   return (
