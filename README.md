@@ -4,7 +4,7 @@
 
 This is a page to present myself as well as my projects.
 
-[![Captura-de-pantalla-2023-05-17-a-las-10-20-05.png](https://i.postimg.cc/tR5sHGFx/Captura-de-pantalla-2023-05-17-a-las-10-20-05.png)](https://postimg.cc/hhXD9wyD)
+[Captura-de-pantalla-2023-05-17-a-las-10-20-05.png](https://postimg.cc/SXX2XG9c)
 
 **Here you should be able to find information about myself as well as how to get in touch with me, and finally direct access to all my projects**
 
