@@ -38,6 +38,14 @@
     "demo": "https://nataliablanco.github.io/Awesome_Business_Cards/",
     "repo":"https://github.com/NataliaBlanco/Awesome_Business_Cards",
     "stack":["HTML5","SASS","JS"] 
+  },
+  {
+    "name": "Meditation App",
+    "id": "6",
+    "image":"https://i.postimg.cc/Xqtyd9H8/Captura-de-pantalla-2023-06-13-a-las-17-42-11.png",
+    "demo": "https://nataliablanco.github.io/meditation-app/",
+    "repo":"https://github.com/NataliaBlanco/meditation-app",
+    "stack":["HTML5","SASS","JS"] 
   }
   
 
