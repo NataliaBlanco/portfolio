@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "./static/css/main.e26e767e.css",
-    "main.js": "./static/js/main.aa0b6b9a.js",
-    "static/media/natalia.pdf": "./static/media/natalia.0b727eed6dcc4e749c59.pdf",
+    "main.js": "./static/js/main.2a05271e.js",
+    "static/media/natalia.pdf": "./static/media/natalia.dc95ac1862ca9c6462e3.pdf",
     "static/media/CA5BF6B5-395C-4784-907F-6BAF7B8303FC.jpeg": "./static/media/CA5BF6B5-395C-4784-907F-6BAF7B8303FC.897a200ba70e3b766c2e.jpeg",
     "static/media/doublefaded.png": "./static/media/doublefaded.49cc72c8a3c8ec3d1d3b.png",
     "index.html": "./index.html",
     "main.e26e767e.css.map": "./static/css/main.e26e767e.css.map",
-    "main.aa0b6b9a.js.map": "./static/js/main.aa0b6b9a.js.map"
+    "main.2a05271e.js.map": "./static/js/main.2a05271e.js.map"
   },
   "entrypoints": [
     "static/css/main.e26e767e.css",
-    "static/js/main.aa0b6b9a.js"
+    "static/js/main.2a05271e.js"
   ]
 }
