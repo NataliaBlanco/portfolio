@@ -7,6 +7,9 @@ const Projects = ({ data }) => {
       return (
         <li className="project__card" key={project.id}>
           <h3 className="project__card__name">{project.name}</h3>
+          {project.status && (
+            <p className="project__card__status">{project.status}</p>
+          )}
           <img
             className="project__card__img"
             src={project.image}

@@ -8,8 +8,17 @@
     "stack":["HTML5","SASS","JS"] 
   },
   {
-    "name": "Cocktail finder",
+    "name": "Notes taker for meeting",
     "id": "2",
+    "status": "working progress",
+    "image":"https://i.postimg.cc/TwTJY8VD/Captura-de-pantalla-2023-11-15-a-las-9-03-05.png",
+    "demo": "Working progress",
+    "repo":"https://github.com/NataliaBlanco/notes-taker-for-meeting",
+    "stack":["HTML5","SASS","JS"] 
+  },
+  {
+    "name": "Cocktail finder",
+    "id": "3",
     "image":"https://i.postimg.cc/3RvNxMqK/nataliablanco-github-io-Cocktail-Finder.png",
     "demo": "http://nataliablanco.github.io/Cocktail_Finder/",
     "repo":"https://github.com/NataliaBlanco/Cocktail_Finder",
@@ -17,7 +26,7 @@
   },
   {
     "name": "Harry Potter World´s",
-    "id": "3",
+    "id": "4",
     "image":"https://i.postimg.cc/8CspDm5M/Captura-de-pantalla-2023-05-15-a-las-10-18-40.png",
     "demo": "https://nataliablanco.github.io/Harry_Potters_world_list/",
     "repo":"https://github.com/NataliaBlanco/Harry_Potters_world_list",
@@ -25,7 +34,7 @@
   },
   {
     "name": "Friends Character Quotes",
-    "id": "4",
+    "id": "5",
     "image":"https://i.postimg.cc/L625Zf5g/Captura-de-pantalla-2023-05-16-a-las-20-52-49.png",
     "demo": "https://nataliablanco.github.io/Friends_characters_quotes/",
     "repo":"https://github.com/NataliaBlanco/Friends_characters_quotes",
@@ -33,12 +42,13 @@
   },
    {
     "name": "Awesome Business Cards",
-    "id": "5",
+    "id": "6",
     "image":"https://i.postimg.cc/05W5r4TF/Captura-de-pantalla-2023-05-16-a-las-21-09-52.png",
     "demo": "https://nataliablanco.github.io/Awesome_Business_Cards/",
     "repo":"https://github.com/NataliaBlanco/Awesome_Business_Cards",
     "stack":["HTML5","SASS","JS"] 
   }
+  
   
   
 

@@ -44,6 +44,11 @@
           color: #a88cc7;
         }
       }
+      &__status {
+        font-size: 1rem;
+        margin-block-end: 0.3rem;
+        font-style: italic;
+      }
       &__img {
         width: 18rem;
         height: 10rem;
